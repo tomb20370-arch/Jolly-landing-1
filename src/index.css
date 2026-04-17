@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@theme {
+  --font-headline: "Alegreya", serif;
+  --font-body: "PT Sans", sans-serif;
+
+  --color-background: #F8FAFC; /* Soft Slate */
+  --color-foreground: #0F172A; /* Slate 900 */
+
+  --color-card: #FFFFFF;
+  --color-card-foreground: #0F172A;
+
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #0F172A;
+
+  --color-primary: #2563EB; /* Deep Blue */
+  --color-primary-foreground: #FFFFFF;
+
+  --color-secondary: #F1F5F9; /* Slate 100 */
+  --color-secondary-foreground: #0F172A;
+
+  --color-muted: #F1F5F9;
+  --color-muted-foreground: #64748B;
+
+  --color-accent: #22C55E; /* Vibrant Green */
+  --color-accent-foreground: #FFFFFF;
+
+  --color-destructive: #EF4444;
+  --color-destructive-foreground: #FFFFFF;
+
+  --color-border: #E2E8F0;
+  --color-input: #E2E8F0;
+  --color-ring: #2563EB;
+
+  --radius-lg: 3rem; /* Large rounded corners */
+  --radius-md: calc(3rem - 2px);
+  --radius-sm: calc(3rem - 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-2xl;
+  }
+  
+  .promo-gradient {
+    @apply bg-gradient-to-br from-primary to-accent;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-student",
+      "description": "Happy student having an online English class on a laptop",
+      "imageUrl": "https://picsum.photos/seed/onlineclass123/1200/800",
+      "imageHint": "online class"
+    },
+    {
+      "id": "course-general",
+      "description": "General English course materials and books",
+      "imageUrl": "https://picsum.photos/seed/familylearning/1200/800",
+      "imageHint": "english books"
+    },
+    {
+      "id": "course-business",
+      "description": "Professional business English meeting",
+      "imageUrl": "https://picsum.photos/seed/businessmeeting44/800/600",
+      "imageHint": "business office"
+    },
+    {
+      "id": "course-kids",
+      "description": "Children having fun learning English online",
+      "imageUrl": "https://picsum.photos/seed/kidslearning55/800/600",
+      "imageHint": "children classroom"
+    },
+    {
+      "id": "course-exam",
+      "description": "English exam preparation and test papers",
+      "imageUrl": "https://picsum.photos/seed/examprep77/800/600",
+      "imageHint": "test paper"
+    },
+    {
+      "id": "about-academy",
+      "description": "The Jolly English Academy team of native teachers",
+      "imageUrl": "https://picsum.photos/seed/teachersgroup88/1200/800",
+      "imageHint": "teachers group"
+    },
+    {
+      "id": "family-promo",
+      "description": "A family learning English together at home",
+      "imageUrl": "https://picsum.photos/seed/familylaptop/1200/800",
+      "imageHint": "family laptop"
+    }
+  ]
+}
